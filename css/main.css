@@ -1,0 +1,108 @@
+:root {
+    --header-left: 8;
+    --header-right: 2;
+}
+
+body {
+    background-color: #000010;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#container {
+    position: relative;
+}
+
+/* Header & Introduction */
+.intro {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    padding: 2%;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.intro-left {
+    padding: 2%;
+    /* background-color: red; */
+    flex-grow: var(--header-left);
+}
+
+.intro-right {
+    padding: 2%;
+    /* background-color: darkcyan; */
+    flex-grow: var(--header-right);
+}
+
+.intro-mainname {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.intro-sidename {
+    font-family: "Brush Script MT", cursive;
+}
+
+.intro-logo {
+    width: 5vw;
+    height: auto;
+}
+
+.header-profile {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    position:inherit;
+    opacity: 0.3;
+}
+
+/* Body Content */
+.contentBody {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    padding: 2%;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+#content img.logo {
+    width: 64px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #0fa;
+}
+
+.content-left {
+    flex-grow: 8;
+    /* background-color: #0fa; */
+}
+
+.content-right {
+    flex-grow: 2;
+    /* background-color: yellow; */
+}
+
+/* Common */
+a.linked {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.centralize {
+    text-align: center;
+}
+
+.bold-400 {
+    font-weight: 400;
+}
