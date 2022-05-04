@@ -4,6 +4,9 @@
 }
 
 body {
+    background: url('../img/profile-dark.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #000010;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -65,6 +68,15 @@ body {
     border-width: 0 0 2px;
 }
 
+/* Footer */
+.footer {
+    width: 100%;
+    margin: auto;
+    text-emphasis: none;
+    text-align: center;
+    padding: 15%;
+}
+
 /* Common */
 img.logo {
     width: 64px;
@@ -76,6 +88,10 @@ img.logo {
 a.linked {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+a.linked:hover {
+    background-color: green;
 }
 
 .centralize {
@@ -91,16 +107,21 @@ img.Explogo {
     padding: 3% 3% 3% 3%;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .full {
     width: 100%;
 }
 
 .fullbar {
-    background-color: #333333;
+    background-color: #555555;
     border-radius: 25px;
     text-align: center;
     width: 80%;
-    margin: auto;   
+    margin: auto;
+    opacity: 0.8;
 }
 
 .progressbar {
@@ -110,4 +131,22 @@ img.Explogo {
     border-radius: 25px;
 }
 
-.pointer {cursor: pointer;}
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    opacity: 0.5;
+    text-shadow: 2px 2px #1c5be2;
+
+}
+
+.black-container {
+    padding: 5%;
+    margin: auto;
+    width: 80vw;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 25px;
+    opacity: 0.6;
+}
