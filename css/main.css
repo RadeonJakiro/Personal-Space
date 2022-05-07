@@ -90,16 +90,17 @@ a.linked {
     color: #FFFFFF;
 }
 
-a.linked:hover {
-    background-color: green;
-}
-
 .centralize {
     text-align: center;
 }
 
 img.Explogo {
     width: 25vw;
+    height: auto;
+}
+
+img.portrait {
+    width: 12.5vw;
     height: auto;
 }
 
@@ -149,4 +150,47 @@ img.Explogo {
     background-color: #000000;
     border-radius: 25px;
     opacity: 0.6;
+}
+
+.animate-fading-profile {
+    animation: fading-profile 2s both;
+}
+
+.animate-fading-container {
+    animation: fading-container 2s both;
+}
+
+@keyframes fading-profile {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fading-container {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0.6
+    }
+}
+
+.animate-kickin {
+    animation: kickin 2s none;
+}
+
+@keyframes kickin {
+    0% {
+        position: relative;
+        left: 20%;
+    }
+    100% {
+        position: relative;
+        left: 0%;
+    }
 }

@@ -19,12 +19,13 @@
 
             <div class="intro">
 
-                <div class="intro-left">
+                <div class="intro-left animate-fading-profile">
                     <h2 class="intro-mainname">Tan Di Xian <span class="intro-sidename">(Liang Quan)</span></h2>
-                    <span>-- Combination of Art and Development --</span>
+                    <img class="logo portrait" src="img/portrait.jpeg" />
+                    <p>-- Combination of Art and Development --</p>
                 </div>
 
-                <div class="intro-right">
+                <div class="intro-right animate-kickin">
                     <a class="linked gap" href="https://www.linkedin.com/in/tan-d-504954147">
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
                             class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -46,7 +47,7 @@
                         <li>Mobile: 60166723299</li>
                         <li>Email: dixian07324@hotmail.com</li>
                         <li>Location: Kuala Lumpur, Malaysia (Preferred Nearby LRT)</li>
-                        <li>Work From Home will be higher priority if there is an option</li>
+                        <li>Work From Home (Preferred if available)</li>
                     </ul>
                 </div>
 
@@ -68,13 +69,15 @@
                             <h2 onclick="showOrhide('skill-container')" class="pointer">Skill Set</h2>
                         </a>
                         <hr style="color: fff;" />
-                        <div id="skill-container" class="black-container" style="display: none;">
+                        <div id="skill-container" class="black-container animate-fading-container"
+                            style="display: none;">
                             <p>Java : Advance
                             <div class="fullbar">
                                 <div class="progressbar" style="width: 75%;"></div>
                             </div>
+                            <code>(Involved in some framework before such as Spring MVC, Stripes, Struts and Vert.x)</code>
                             </p>
-                            <p>Database : Moderate
+                            <p>Database : Moderate (Oracle, DB2)
                             <div class="fullbar">
                                 <div class="progressbar" style="width: 45%;"></div>
                             </div>
@@ -89,6 +92,7 @@
                             <div class="fullbar">
                                 <div class="progressbar" style="width: 50%;"></div>
                             </div>
+                            <code>(Involved in framework before such as Angular with Typescript)</code>
                             </p>
                             <p>HTML : Advance
                             <div class="fullbar">
@@ -100,6 +104,11 @@
                             <div class="fullbar">
                                 <div class="progressbar" style="width: 70%;"></div>
                             </div>
+                            </p>
+
+                            <p>Noted: Experience from existing company isn't involved in Setup Environment. Etc Setup
+                                Server or
+                                Database except by Personal Research.
                             </p>
                         </div>
                     </div>
@@ -114,12 +123,19 @@
                         <hr style="color: fff;" />
                         <div id="experience-container" class="black-container" style="display:none;">
                             <p class="gap bold">Click the Company Logo & Label to extend more information</p>
-                            <a href="#cyber-village" class="linked">
-                                <h6 onclick="showOrhide('cyber-village')" class="pointer"><img src="img/cv-logo.png"
-                                        class="logo" /> <span>Fermion, Cyber
-                                        Village (2016 Q4 - Present)</span></h6>
+
+                            <a href="#cyber-village" class="linked gap" onclick="showOrhide('cyber-village')">
+                                <div>
+                                    <img src="img/cv-logo.png" class="logo" />
+                                </div>
+                                <div>
+                                    <h6 class="pointer gap"><span>Fermion, Cyber
+                                            Village (2016 Q4 - Present)</span></h6>
+                                </div>
                             </a>
-                            <div id="cyber-village" style="display: none;">
+                            <!-- Cyber Village Start -->
+
+                            <div id="cyber-village" class="animate-fading-container" style="display: none;">
                                 <br />
                                 <p>Position: Web Application Developer (2017 - 2021), Senior Web Application Developer
                                     (2022
@@ -288,8 +304,7 @@
                                                 <p>Thing used in Development: Vert.x, Stripes, Struts, JSP,
                                                     Ionic (Typescript)</p>
                                                 <p>Tool: Websphere, Openshift, Jira, Trello, DB2, Git, Gerrit, Cordova,
-                                                    Gradle,
-                                                    Joget</p>
+                                                    Gradle, Docker</p>
                                                 <p>Platform: Backend (Retail Rest API, Support Center), Front End
                                                     (Retail
                                                     Mobile,
@@ -301,6 +316,8 @@
 
                                 </div>
                             </div>
+                            <!-- Cyber Village End -->
+
                         </div>
                     </div>
                     <!-- End Experience -->
@@ -313,7 +330,8 @@
                         </a>
                         <hr style="color: fff;" />
 
-                        <div class="black-container" id="education-container" style="display:none;">
+                        <div class="black-container animate-fading-container" id="education-container"
+                            style="display:none;">
                             <img src="img/apu-logo.jpeg" class="Explogo logo" />
                             <br />
                             <p>Degree BSc (Hons) in Software Engineering <br />[Second Class Honours, First Division]
@@ -329,7 +347,8 @@
                             <h2 class="pointer" onclick="showOrhide('about-container')">About Me</h2>
                         </a>
                         <hr style="color: fff;" />
-                        <div class="black-container" id="about-container" style="display: none;">
+                        <div class="black-container animate-fading-container" id="about-container"
+                            style="display: none;">
                             <h2 class="bold"><span class="intro-sidename">Liang Quan</span>?! Woah~ What's that?</h2>
                             <p><strong>Liang Quan</strong> is the name that refactored by my family, even if it is not
                                 officially update
