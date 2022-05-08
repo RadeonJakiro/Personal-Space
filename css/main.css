@@ -108,6 +108,29 @@ img.portrait {
     padding: 3% 3% 3% 3%;
 }
 
+.gap-list-icon {
+    position: relative;
+    display: inline-flex;
+    padding: 3% 3% 3% 3%;
+}
+
+.gap-list-icon .tooltipz {
+    display: none;
+}
+
+.gap-list-icon:hover .tooltipz {
+    position: absolute;
+    display: block;
+    left: 15%;
+    top: 90%;
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+    font-size: 10pt;
+    background-color: #1c5be2;
+    border-radius: 15px;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -187,8 +210,9 @@ img.portrait {
 @keyframes kickin {
     0% {
         position: relative;
-        left: 20%;
+        left: 50%;
     }
+
     100% {
         position: relative;
         left: 0%;
